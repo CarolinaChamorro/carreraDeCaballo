@@ -41,7 +41,7 @@ function meMuevo1() {
       pos1=0;
       }
       else{
-    while (pos1 <=50){
+    for (;pos1 <=50;){
     
     elem1.style.left = (posicion1.left+ pos1 )+"px"; 
       
@@ -65,7 +65,7 @@ function meMuevo1() {
       po2s=0;
       }
       else{
-    while (pos2 <=50){
+    for (;pos2 <=50;){
     
     elem2.style.left = (posicion2.left+ pos2 )+"px"; 
       
